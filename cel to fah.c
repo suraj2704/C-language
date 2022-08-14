@@ -2,17 +2,15 @@
  
 int main()
 {
-    float celsius, fahrenheit;
+    float c, f;
  
     printf("Please Enter temperature in Celsius: \n");
-    scanf("%f", &celsius);
+    scanf("%f", &c);
  
     
-    fahrenheit = ((celsius * 9)/5) + 32;
+    f = ((c * 9)/5) + 32;
   
  
-    printf("\n %.2f Celsius = %.2f Fahrenheit", celsius, fahrenheit);
- 
-    return 0;
+    printf("\n %.2f Celsius = %.2f Fahrenheit", c, f);
 }
 
